@@ -10,10 +10,7 @@
             Welcome to the Travel Log app! This is a simple application to log your travels and share them with others.
             You can create an account, log in, and start adding your travel experiences.
           </p>
-          <button class="btn btn-accent">
-            Sign in with Github
-            <Icon name="tabler:brand-github" size="24" />
-          </button>
+          <AuthButton />
         </div>
       </div>
     </div>

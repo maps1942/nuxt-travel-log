@@ -2,8 +2,8 @@
 
 @plugin "daisyui" {
   themes:
-    light --default,
-    dark --prefersdark,
+    silk --default,
+    dracula --prefersdark,
     dracula,
     silk;
 }
