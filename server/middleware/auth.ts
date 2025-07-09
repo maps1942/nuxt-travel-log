@@ -6,7 +6,7 @@ export default defineEventHandler(async (event) => {
       headers: event.headers,
     });
 
-    if (!session) {
+    if (!session?.user) {
       await sendRedirect(event, "/", 302);
     }
   }
